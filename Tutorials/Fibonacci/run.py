@@ -1,7 +1,5 @@
 import timeit
 
-# from fib import fib
-
 pySetup = "from pyFib import pyFib"
 time = timeit.timeit(setup=pySetup, stmt="pyFib(10000)", number=10000)
 print(f"\nPython code time = {time:.04e} s")

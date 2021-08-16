@@ -1,5 +1,9 @@
 # Compiled cython files
 *.c
+*.cpp
+
+# Cython html files
+*.html
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
