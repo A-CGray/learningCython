@@ -6,6 +6,7 @@ def fib(n):
     a = 0
     b = 1
     while b < n:
-        print(b, end=' ')
+        # print(b, end=' ')
         a, b = b, a+b
+    return b
 
